@@ -9,7 +9,7 @@ class ValidateLogin extends Validate{
         this.user_save_toggle = this.form.elements['stay-logged-in'];
 
         if (sessionStorage.token || localStorage.token){
-            window.location = './home.html';
+            window.location = './index.html';
         } else {
             this.events(self);
         }
@@ -33,7 +33,7 @@ class ValidateLogin extends Validate{
         } else {
             sessionStorage.setItem('token', res);
         }
-        window.location = './home.html';
+        window.location = './index.html';
     }
 
 }

@@ -11,7 +11,7 @@ class ValidateSignup extends Validate{
         this.input_confirm_password = this.form.elements['confirmPassword'];
 
         if (sessionStorage.token || localStorage.token){
-            window.location = './home.html';
+            window.location = './index.html';
         } else {
             this.events(self);
         }
@@ -35,7 +35,7 @@ class ValidateSignup extends Validate{
 
     handler_on_success(res){
         sessionStorage.setItem('token', res);
-        window.location = './home.html';
+        window.location = './index.html';
     }
 
 }
