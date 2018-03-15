@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "app-ic";
+    src: url('../fonts/app-ic.eot');
+    src: url('../fonts/app-ic.eot?#iefix') format('eot'),
+    url('../fonts/app-ic.woff2') format('woff2'),
+    url('../fonts/app-ic.woff') format('woff'),
+    url('../fonts/app-ic.ttf') format('truetype'),
+    url('../fonts/app-ic.svg#app-ic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon:before {
+                    display: inline-block;
+                    font-family: "app-ic";
+                    font-style: normal;
+                    font-weight: normal;
+                    line-height: 1;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                }
+
+.icon-lg {
+                    font-size: 1.3333333333333333em;
+                    line-height: 0.75em;
+                    vertical-align: -15%;
+                }
+.icon-2x { font-size: 2em; }
+.icon-3x { font-size: 3em; }
+.icon-4x { font-size: 4em; }
+.icon-5x { font-size: 5em; }
+.icon-fw {
+                    width: 1.2857142857142858em;
+                    text-align: center;
+                }
+
+.icon-arrow-down-small:before { content: "\EA01" }
+.icon-arrow-down:before { content: "\EA02" }
+.icon-arrow-left:before { content: "\EA03" }
+.icon-arrow-right:before { content: "\EA04" }
+.icon-arrow-up-small:before { content: "\EA05" }
+.icon-arrow-up:before { content: "\EA06" }
+.icon-banners:before { content: "\EA07" }
+.icon-calendar:before { content: "\EA08" }
+.icon-close:before { content: "\EA09" }
+.icon-details:before { content: "\EA0A" }
+.icon-general:before { content: "\EA0B" }
+.icon-links:before { content: "\EA0C" }
+.icon-login:before { content: "\EA0D" }
+.icon-message:before { content: "\EA0E" }
+.icon-negative:before { content: "\EA0F" }
+.icon-notification:before { content: "\EA10" }
+.icon-password:before { content: "\EA11" }
+.icon-payout:before { content: "\EA12" }
+.icon-personaldata:before { content: "\EA13" }
+.icon-positive:before { content: "\EA14" }
+.icon-postback:before { content: "\EA15" }
+.icon-profile:before { content: "\EA16" }
+.icon-quit:before { content: "\EA17" }
+.icon-refresh:before { content: "\EA18" }
+.icon-show:before { content: "\EA19" }
+.icon-trash:before { content: "\EA1A" }
+.icon-url:before { content: "\EA1B" }
+.icon-wallet:before { content: "\EA1C" }

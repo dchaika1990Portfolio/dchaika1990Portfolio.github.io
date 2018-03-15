@@ -1,0 +1,28 @@
+.logo-img{
+    width: 100px;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+.error-info {
+    display: none;
+}
+.error-info.show{
+    display: block;
+}
+.tasks-container .card + .card{
+    margin-top: 30px;
+}
+.alert-info{
+    opacity: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 30px;
+    min-width: 300px;
+    transition: all .3s linear;
+}
+.alert-info.show{
+    opacity: 1;
+    transform: translateY(60px);
+}

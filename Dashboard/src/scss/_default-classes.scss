@@ -1,0 +1,42 @@
+// Text classes
+.text-bold{
+  font-weight: $fontBold;
+}
+.text-center{
+  text-align: center;
+}
+.text-right{
+  text-align: right;
+}
+.title-margin{
+  margin-bottom: 35px;
+}
+.text-alarm{
+  color: $red;
+  text-transform: uppercase;
+}
+
+//class position fixed
+.fixed-to-top{
+  position: fixed;
+  z-index: 99;
+  top: 0;
+}
+
+// class flexbox
+.flex-container{
+  display: flex;
+}
+.align-items-center{
+  align-items: center;
+}
+.justify-content-sb{
+  justify-content: space-between;
+}
+.flex-column{
+  flex-direction: column;
+}
+
+.border{
+  border-right: 1px solid $lightGrey;
+}

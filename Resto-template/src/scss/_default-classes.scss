@@ -1,0 +1,52 @@
+//Color
+.white{
+  color: $white;
+}
+.orange{
+  color: $orange;
+}
+.black{
+  color: $black;
+}
+
+//Position
+.fixed{
+  position: fixed;
+}
+.top{
+  top: 0;
+}
+
+//Text-align
+.center{
+  text-align: center;
+}
+.left{
+  text-align: left;
+}
+.right{
+  text-align: right;
+}
+
+//Flex
+.flex-container{
+  display: flex;
+}
+.justify-right{
+  justify-content: right;
+}
+.justify-sp-between{
+  justify-content: space-between;
+}
+.justify-center{
+  justify-content: center;
+}
+.align-center{
+  align-items: center;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.flex-no-wrap{
+  flex-wrap: nowrap;
+}

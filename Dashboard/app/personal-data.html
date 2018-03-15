@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Template</title>
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700" rel="stylesheet">
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="css/myfont.css">
+
+    <!-- jQuery UI -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<!-- HEADER START -->
+<header class="fixed-to-top header">
+    <ul class="flex-container  user-control">
+        <li class="cash flex-container align-items-center dropdown-wrap">
+            <span class="icon icon-wallet"></span>
+            <span class="text-bold">$1,500.00</span>
+            <span class="icon icon-arrow-down"></span>
+            <div class="dropdown-menu">
+                <ul>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="top-notification flex-container align-items-center">
+            <span class="icon icon-notification"></span>
+            <div class="top-notification-circle"></div>
+        </li>
+        <li class="top-user-name flex-container align-items-center">
+            <span class="icon icon-login"></span>
+            <span> Leonardo Dicaprio</span>
+        </li>
+        <li class="log-out flex-container align-items-center"><a href="" class="icon icon-quit"></a></li>
+    </ul>
+</header>
+<!-- HEADER END -->
+
+<!-- ASIDE START -->
+<aside class="fixed-to-top aside">
+    <div class="menu-control flex-container align-items-center justify-content-sb">
+        <div class="logo">
+            <a href="#">
+                <img src="img/logo.png" alt="logo">
+            </a>
+        </div>
+        <div class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div class="aside-menu">
+        <ul>
+            <li>
+                <a href="index.html">
+                    <span class="text-center icon icon-general"></span>
+                    <span class="menu-link">General</span>
+                </a>
+            </li>
+            <li>
+                <a href="details.html">
+                    <span class="text-center icon icon-details"></span>
+                    <span class="menu-link">Details</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span class="text-center icon icon-links"></span>
+                    <span class="menu-link">Links</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span class="text-center icon icon-banners"></span>
+                    <span class="menu-link">Banners</span>
+                </a>
+            </li>
+            <li class="active">
+                <a href="personal-data.html">
+                    <span class="text-center icon icon-personaldata"></span>
+                    <span class="menu-link">Personal data</span>
+                </a>
+            </li>
+            <li>
+                <a href="payout.html">
+                    <span class="text-center icon icon-payout"></span>
+                    <span class="menu-link">Payout</span>
+                </a>
+            </li>
+            <li>
+                <a href="postback.html">
+                    <span class="text-center icon icon-postback"></span>
+                    <span class="menu-link">Postback</span>
+                </a>
+            </li>
+        </ul>
+        <div class="your-manager">
+            <h3 class="page-title small-title">Your manager</h3>
+            <div class="manager-info flex-container align-items-center">
+                <div class="manager-photo">
+                    <img src="img/manager-photo.png" alt="manager-photo">
+                    <div class="status online"></div>
+                </div>
+                <a class="link">Mikhael E.</a>
+            </div>
+        </div>
+    </div>
+</aside>
+<!-- ASIDE END -->
+
+<main>
+    <div class="content-wrapper">
+        <div class="panel personal-data">
+            <div class="panel-header">
+                <h3 class="page-title">Personal data</h3>
+            </div>
+            <div class="panel-body">
+                <div class="panel-form row">
+                    <form>
+                        <div class="label-group">
+                            <label for="user-name">Name</label>
+                            <input type="text" class="form-control" id="user-name">
+                        </div>
+                        <div class="label-group">
+                            <label for="user-surname">Surname</label>
+                            <input type="text" class="form-control" id="user-surname">
+                        </div>
+                        <div class="label-group">
+                            <label for="user-email">Email</label>
+                            <input type="text" class="form-control" id="user-email">
+                        </div>
+                        <div class="label-group">
+                            <label for="user-phone">Phone number</label>
+                            <input type="text" class="form-control" id="user-phone">
+                        </div>
+                    </form>
+                </div>
+                <div class="panel-form row">
+                    <form>
+                        <div class="label-group">
+                            <label for="user-skype">Skype</label>
+                            <input type="text" class="form-control" id="user-skype">
+                        </div>
+                        <div class="label-group">
+                            <label for="user-icq">ICQ</label>
+                            <input type="text" class="form-control" id="user-icq">
+                        </div>
+                        <div class="label-group">
+                            <label for="user-msn">Msn</label>
+                            <input type="text" class="form-control" id="user-msn">
+                        </div>
+                    </form>
+                </div>
+                <div class="panel-form row">
+                    <form>
+                        <div class="label-group">
+                            <label for="user-wallet">Wallet</label>
+                            <input type="text" class="form-control" id="user-wallet">
+                        </div>
+                    </form>
+                </div>
+                <div class="panel-form row">
+                    <form>
+                        <div class="label-group">
+                            <label for="user-password">Password</label>
+                            <input type="password" class="form-control" id="user-password">
+                        </div>
+                        <div class="label-group">
+                            <label for="user-password-repeat">Repeat</label>
+                            <input type="password" class="form-control" id="user-password-repeat">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="panel-footer">
+                <div class="btn-row text-center">
+                    <a class="btn btn-action">Save</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- Loader start -->
+<div id="loading">
+    <div id="loading-center">
+        <div id="loading-center-absolute">
+            <div id="object"></div>
+        </div>
+    </div>
+</div>
+<!-- Loader end -->
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.min.js"></script>
+<script src="js/jquery.formstyler.min.js"></script>
+<script src="js/jquery.bpopup.min.js"></script>
+<script src="js/jquery.scrollbar.js"></script>
+
+<!-- Init plugins -->
+<script src="js/init.js"></script>
+
+<!-- Plugin -->
+<script src="js/plugins.min.js"></script>
+
+</body>
+</html>

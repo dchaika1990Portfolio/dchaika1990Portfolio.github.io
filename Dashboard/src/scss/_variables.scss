@@ -1,0 +1,69 @@
+// Font var
+$fontFamily: 'Roboto', sans-serif;
+$fontLight: 300;
+$fontRegular: 400;
+$fontMedium: 500;
+$fontBold: 700;
+$LineHeight: 1;
+$fontSize: 14px;
+
+// Color var
+$black: #333;
+$darkGrey: #979797;
+$grey: #bababa;
+$lightGrey: #e3e3e3;
+$xsLightGrey: #f5f5f2;
+
+$orange: #f58220;
+$orangeLight: #ffa200;
+$green: #04ae00;
+$lightGgreen: #74b67a;
+$xsLightGgreen: #96cc9b;
+
+$red: #ff0000;
+$pink: #de5252;
+$lightPink: #ec7171;
+$blue: #56819f;
+
+// Default padding
+//$defaultPadding: 18px;
+$defaultIndent: 18px;
+
+// Component var
+
+//LINK component
+$linkColor: #56819f;
+$linkHoverColor: #ffa200;
+$linkFontSizeDefault: 13px;
+$linkLargeFont: 16px;
+
+// TITLE component
+$titleColor: #a6a6a6;
+$titleFontSize: 16px;
+$smallTitleFontSize: 14px;
+
+// Btn component
+$btnFontSize: 18px;
+$btnDefaultColor: #fff;
+$btnDefaultBg: $darkGrey;
+$btnDefaultBgHover: $grey;
+$btnActionBg: $orange;
+$btnActionBgHover: $orangeLight;
+$btnDisabledBg: $lightGrey;
+$btnDisabledBgHover: $lightGrey;
+
+// Table component
+$tableFontSize: 13px;
+$tableTrHover:#f1f3f3;
+
+// Tabs component
+$tabsCircleGreenBG: #59b66d;
+$tabsCircleBlueBG: #80bfca;
+$tabsCircleOrangeBG: #ff9a38;
+
+// Aside component
+$asideBG: #191919;
+$asideWidth: 188px;
+
+//sidebar
+$sidebarMobileWidth: 60px;

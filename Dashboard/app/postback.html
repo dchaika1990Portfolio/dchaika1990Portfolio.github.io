@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Template</title>
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700" rel="stylesheet">
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="css/myfont.css">
+
+    <!-- jQuery UI -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<!-- HEADER START -->
+<header class="fixed-to-top header">
+    <ul class="flex-container  user-control">
+        <li class="cash flex-container align-items-center dropdown-wrap">
+            <span class="icon icon-wallet"></span>
+            <span class="text-bold">$1,500.00</span>
+            <span class="icon icon-arrow-down"></span>
+            <div class="dropdown-menu">
+                <ul>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="top-notification flex-container align-items-center">
+            <span class="icon icon-notification"></span>
+            <div class="top-notification-circle"></div>
+        </li>
+        <li class="top-user-name flex-container align-items-center">
+            <span class="icon icon-login"></span>
+            <span> Leonardo Dicaprio</span>
+        </li>
+        <li class="log-out flex-container align-items-center"><a href="" class="icon icon-quit"></a></li>
+    </ul>
+</header>
+<!-- HEADER END -->
+
+<!-- ASIDE START -->
+<aside class="fixed-to-top aside">
+    <div class="menu-control flex-container align-items-center justify-content-sb">
+        <div class="logo">
+            <a href="#">
+                <img src="img/logo.png" alt="logo">
+            </a>
+        </div>
+        <div class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div class="aside-menu">
+        <ul>
+            <li>
+                <a href="index.html">
+                    <span class="text-center icon icon-general"></span>
+                    <span class="menu-link">General</span>
+                </a>
+            </li>
+            <li>
+                <a href="details.html">
+                    <span class="text-center icon icon-details"></span>
+                    <span class="menu-link">Details</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span class="text-center icon icon-links"></span>
+                    <span class="menu-link">Links</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span class="text-center icon icon-banners"></span>
+                    <span class="menu-link">Banners</span>
+                </a>
+            </li>
+            <li>
+                <a href="personal-data.html">
+                    <span class="text-center icon icon-personaldata"></span>
+                    <span class="menu-link">Personal data</span>
+                </a>
+            </li>
+            <li>
+                <a href="payout.html">
+                    <span class="text-center icon icon-payout"></span>
+                    <span class="menu-link">Payout</span>
+                </a>
+            </li>
+            <li class="active">
+                <a href="postback.html">
+                    <span class="text-center icon icon-postback"></span>
+                    <span class="menu-link">Postback</span>
+                </a>
+            </li>
+        </ul>
+        <div class="your-manager">
+            <h3 class="page-title small-title">Your manager</h3>
+            <div class="manager-info flex-container align-items-center">
+                <div class="manager-photo">
+                    <img src="img/manager-photo.png" alt="manager-photo">
+                    <div class="status online"></div>
+                </div>
+                <a class="link">Mikhael E.</a>
+            </div>
+        </div>
+    </div>
+</aside>
+<!-- ASIDE END -->
+
+<main>
+    <div class="content-wrapper">
+        <div class="panel postback">
+            <div class="panel-header">
+                <h3 class="page-title">New postback</h3>
+            </div>
+            <div class="panel-body">
+                <div class="container">
+                    <div class="postback-form-wrap">
+                        <span>You can insert some parameters in this postback:</span>
+                        <div class="form-group-wrap flex-container align-items-center">
+                            <div class="form-group">
+                                <h3 class="page-title">Signup</h3>
+                                <textarea class="form-control" readonly>
+crm_userId =%user_id%
+subid =%p%
+                            </textarea>
+                            </div>
+                            <div class="form-group">
+                                <h3 class="page-title">Deposit</h3>
+                                <textarea class="form-control" readonly>
+crm_userId =%user_id%
+subid =%p%
+                            </textarea>
+                            </div>
+                        </div>
+                        <div class="form-group-wrap flex-container align-items-center">
+                            <div class="form-group">
+                                <h3 class="page-title">Postback type</h3>
+                                <form class="flex-container align-items-center">
+                                    <select class="select-box">
+                                        <option>S2S(http://..)</option>
+                                        <option>S2S(http://..)</option>
+                                        <option>S2S(http://..)</option>
+                                    </select>
+                                </form>
+                            </div>
+                            <div class="form-group">
+                                <h3 class="page-title">To countries</h3>
+                                <form class="flex-container align-items-center">
+                                    <select class="select-box">
+                                        <option>Select countries</option>
+                                        <option>Select countries</option>
+                                        <option>Select countries</option>
+                                    </select>
+                                </form>
+                            </div>
+                            <div class="form-group">
+                                <h3 class="page-title">Sending options</h3>
+                                <form class="flex-container align-items-center">
+                                    <select class="select-box">
+                                        <option>Select</option>
+                                        <option>Select</option>
+                                        <option>Select</option>
+                                    </select>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-footer">
+                <div class="container">
+                    <div class="postback-form-wrap">
+                        <div class="form-group-wrap flex-container">
+                            <div class="form-group">
+                                <h3 class="page-title">
+                                    <span class="text-alarm">not</span>
+                                    send statuses
+                                </h3>
+                                <div class="checkboxes">
+                                    <div class="flex-container flex-column scrollbar-inner">
+                                        <div class="checkbox-group flex-container justify-content-sb align-items-center">
+                                            <input type="checkbox" name="link1" id="link12">
+                                            <label for="link12" class="flex-container align-items-center">checkNumber</label>
+                                            <span class="icon icon-show"></span>
+                                        </div>
+                                        <div class="checkbox-group flex-container justify-content-sb align-items-center">
+                                            <input type="checkbox" name="link1" id="link13">
+                                            <label for="link13" class="flex-container align-items-center">checkNumber</label>
+                                            <span class="icon icon-show"></span>
+                                        </div>
+                                        <div class="checkbox-group flex-container justify-content-sb align-items-center">
+                                            <input type="checkbox" name="link1" id="link14">
+                                            <label for="link14" class="flex-container align-items-center">checkNumber</label>
+                                            <span class="icon icon-show"></span>
+                                        </div>
+                                        <div class="checkbox-group flex-container justify-content-sb align-items-center">
+                                            <input type="checkbox" name="link1" id="link15">
+                                            <label for="link15" class="flex-container align-items-center">checkNumber</label>
+                                            <span class="icon icon-show"></span>
+                                        </div>
+                                        <div class="checkbox-group flex-container justify-content-sb align-items-center">
+                                            <input type="checkbox" name="link1" id="link16">
+                                            <label for="link16" class="flex-container align-items-center">checkNumber</label>
+                                            <span class="icon icon-show"></span>
+                                        </div>
+                                        <div class="checkbox-group flex-container justify-content-sb align-items-center">
+                                            <input type="checkbox" name="link1" id="link17">
+                                            <label for="link17" class="flex-container align-items-center">checkNumber</label>
+                                            <span class="icon icon-show"></span>
+                                        </div>
+                                        <div class="checkbox-group flex-container justify-content-sb align-items-center">
+                                            <input type="checkbox" name="link1" id="link18">
+                                            <label for="link18" class="flex-container align-items-center">checkNumber</label>
+                                            <span class="icon icon-show"></span>
+                                        </div>
+                                        <div class="checkbox-group flex-container justify-content-sb align-items-center">
+                                            <input type="checkbox" name="link1" id="link19">
+                                            <label for="link19" class="flex-container align-items-center">checkNumber</label>
+                                            <span class="icon icon-show"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="border"></div>
+                            <div class="form-group">
+                                <h3 class="page-title">Send after:</h3>
+                                <div id="slider">
+                                    <div id="custom-handle" class="ui-slider-handle"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-row text-right">
+                <a href="" class="btn btn-action" data-modal="#add-banners-modal">Create Pixel</a>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+<!-- MODAL ADD BANNERS -->
+<div class="modal" id="add-banners-modal">
+    <div class="modal-header">
+        <h3 class="page-title ">Add banners</h3>
+    </div>
+    <div class="modal-form-wrap align-items-center flex-container">
+
+        <div class="form-group">
+            <h3 class="page-title title-margin">Scheme name</h3>
+            <form class="flex-container align-items-center">
+                <input type="text" class="form-control" placeholder="Name">
+            </form>
+        </div>
+        <div class="form-group">
+            <h3 class="page-title title-margin">Compain</h3>
+            <form class="flex-container align-items-center">
+                <select class="select-box">
+                    <option>Select compain</option>
+                    <option>Compain 1</option>
+                    <option>Compain 1</option>
+                </select>
+            </form>
+        </div>
+        <div class="form-group">
+            <h3 class="page-title title-margin">Language</h3>
+            <form class="flex-container align-items-center">
+                <select class="select-box">
+                    <option>EN</option>
+                    <option>EN</option>
+                    <option>EN</option>
+                </select>
+            </form>
+        </div>
+
+    </div>
+    <div class="form-group-wrap flex-container align-items-center">
+        <div class="form-group">
+            <h3 class="page-title">Postback type</h3>
+            <select class="select-box">
+                <option>S2S(http://..)</option>
+                <option>S2S(http://..)</option>
+                <option>S2S(http://..)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <h3 class="page-title">To countries</h3>
+            <select class="select-box">
+                <option>Select countries</option>
+                <option>Select countries</option>
+                <option>Select countries</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <h3 class="page-title">Sending options</h3>
+            <select class="select-box">
+                <option>Select</option>
+                <option>Select</option>
+                <option>Select</option>
+            </select>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="modal-body-form-wrap">
+            <div class="form-group-wrap flex-container">
+                <div class="form-group">
+                    <h3 class="page-title">Select banners</h3>
+                    <div class="checkboxes">
+                        <div class="flex-container flex-column scrollbar-inner">
+                            <div class="checkbox-group flex-container justify-content-sb align-items-center">
+                                <input type="checkbox" name="link1" id="banner1">
+                                <label for="banner1" class="flex-container align-items-center">Banner main</label>
+                                <span class="icon icon-show"></span>
+                            </div>
+                            <div class="checkbox-group flex-container justify-content-sb align-items-center">
+                                <input type="checkbox" name="link1" id="banner2">
+                                <label for="banner2" class="flex-container align-items-center">Sign up banner</label>
+                                <span class="icon icon-show"></span>
+                            </div>
+                            <div class="checkbox-group flex-container justify-content-sb align-items-center">
+                                <input type="checkbox" name="link1" id="banner3">
+                                <label for="banner3" class="flex-container align-items-center">Left banner</label>
+                                <span class="icon icon-show"></span>
+                            </div>
+                            <div class="checkbox-group flex-container justify-content-sb align-items-center">
+                                <input type="checkbox" name="link1" id="banner4">
+                                <label for="banner4" class="flex-container align-items-center">Right banner</label>
+                                <span class="icon icon-show"></span>
+                            </div>
+                            <div class="checkbox-group flex-container justify-content-sb align-items-center">
+                                <input type="checkbox" name="link1" id="banner5">
+                                <label for="banner5" class="flex-container align-items-center">Bottom banner</label>
+                                <span class="icon icon-show"></span>
+                            </div>
+                            <div class="checkbox-group flex-container justify-content-sb align-items-center">
+                                <input type="checkbox" name="link1" id="banner6">
+                                <label for="banner6" class="flex-container align-items-center">Long banner</label>
+                                <span class="icon icon-show"></span>
+                            </div>
+                            <div class="checkbox-group flex-container justify-content-sb align-items-center">
+                                <input type="checkbox" name="link1" id="banner7">
+                                <label for="banner7" class="flex-container align-items-center">Personal cabinet banner</label>
+                                <span class="icon icon-show"></span>
+                            </div>
+                            <div class="checkbox-group flex-container justify-content-sb align-items-center">
+                                <input type="checkbox" name="link1" id="banner17">
+                                <label for="banner17" class="flex-container align-items-center">Popup banner</label>
+                                <span class="icon icon-show"></span>
+                            </div>
+                            <div class="checkbox-group flex-container justify-content-sb align-items-center">
+                                <input type="checkbox" name="link1" id="banner18">
+                                <label for="banner18" class="flex-container align-items-center">Popup banner</label>
+                                <span class="icon icon-show"></span>
+                            </div>
+                            <div class="checkbox-group flex-container justify-content-sb align-items-center">
+                                <input type="checkbox" name="link1" id="banner19">
+                                <label for="banner19" class="flex-container align-items-center">Popup banner</label>
+                                <span class="icon icon-show"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border"></div>
+                <div class="form-group">
+                    <h3 class="page-title">Select websites</h3>
+                    <div class="checkboxes">
+                        <div class="flex-container flex-column scrollbar-inner">
+                            <div class="checkbox-group flex-container justify-content-sb align-items-center">
+                                <input type="checkbox" name="link1" id="banner9">
+                                <label for="banner9" class="flex-container align-items-center">Landing page Money</label>
+                                <span class="icon icon-show"></span>
+                            </div>
+                            <div class="checkbox-group flex-container justify-content-sb align-items-center">
+                                <input type="checkbox" name="link1" id="banner10">
+                                <label for="banner10" class="flex-container align-items-center">LP Your choise</label>
+                                <span class="icon icon-show"></span>
+                            </div>
+                            <div class="checkbox-group flex-container justify-content-sb align-items-center">
+                                <input type="checkbox" name="link1" id="banner11">
+                                <label for="banner11" class="flex-container align-items-center">LP Wallet</label>
+                                <span class="icon icon-show"></span>
+                            </div>
+                            <div class="checkbox-group flex-container justify-content-sb align-items-center">
+                                <input type="checkbox" name="link1" id="banner12">
+                                <label for="banner12" class="flex-container align-items-center">E-Shop 01</label>
+                                <span class="icon icon-show"></span>
+                            </div>
+                            <div class="checkbox-group flex-container justify-content-sb align-items-center">
+                                <input type="checkbox" name="link1" id="banner13">
+                                <label for="banner13" class="flex-container align-items-center">Toy Store</label>
+                                <span class="icon icon-show"></span>
+                            </div>
+                            <div class="checkbox-group flex-container justify-content-sb align-items-center">
+                                <input type="checkbox" name="link1" id="banner14">
+                                <label for="banner14" class="flex-container align-items-center">Book Store</label>
+                                <span class="icon icon-show"></span>
+                            </div>
+                            <div class="checkbox-group flex-container justify-content-sb align-items-center">
+                                <input type="checkbox" name="link1" id="banner15">
+                                <label for="banner15" class="flex-container align-items-center">Charity</label>
+                                <span class="icon icon-show"></span>
+                            </div>
+                            <div class="checkbox-group flex-container justify-content-sb align-items-center">
+                                <input type="checkbox" name="link1" id="banner20">
+                                <label for="banner20" class="flex-container align-items-center">LP Icons Store</label>
+                                <span class="icon icon-show"></span>
+                            </div>
+                            <div class="checkbox-group flex-container justify-content-sb align-items-center">
+                                <input type="checkbox" name="link1" id="banner21">
+                                <label for="banner21" class="flex-container align-items-center">LP Icons Store</label>
+                                <span class="icon icon-show"></span>
+                            </div>
+                            <div class="checkbox-group flex-container justify-content-sb align-items-center">
+                                <input type="checkbox" name="link1" id="banner22">
+                                <label for="banner22" class="flex-container align-items-center">LP Icons Store</label>
+                                <span class="icon icon-show"></span>
+                            </div>
+                            <div class="checkbox-group flex-container justify-content-sb align-items-center">
+                                <input type="checkbox" name="link1" id="banner16">
+                                <label for="banner16" class="flex-container align-items-center">LP Icons Store</label>
+                                <span class="icon icon-show"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer align-items-center generate-link-form">
+        <form class="flex-container">
+            <input type="text" class="form-control" placeholder="Generate link">
+            <buttom class="btn btn-default"><span class="icon icon-links"></span>Copy link</buttom>
+            <buttom class="btn btn-action">Save</buttom>
+        </form>
+    </div>
+</div>
+
+<!-- Loader start -->
+<div id="loading">
+    <div id="loading-center">
+        <div id="loading-center-absolute">
+            <div id="object"></div>
+        </div>
+    </div>
+</div>
+<!-- Loader end -->
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.min.js"></script>
+<script src="js/jquery.formstyler.min.js"></script>
+<script src="js/jquery.bpopup.min.js"></script>
+<script src="js/jquery.scrollbar.js"></script>
+
+<!-- Init plugins -->
+<script src="js/init.js"></script>
+
+<!-- Plugin -->
+<script src="js/plugins.min.js"></script>
+
+</body>
+</html>

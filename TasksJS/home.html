@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <!-- Custom style -->
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-primary mb-3">
+            <div class="container">
+                <a class="navbar-brand" href="/panel">Easycode test auth</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+   
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <div class="alert alert-success" role="alert"> </div>
+                    <div class="alert alert-info text-center"></div>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#createTask">Создать задачу</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <div class="task-wrapper mt-5">
+                        <div class="tasks-container">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--Modal create task start-->
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="createTask">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Добавить новую задачу</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form name="create-task-form" id="create-task-form" novalidate>
+                        <div class="form-group">
+                            <label for="title">Title</label>
+                            <input type="text" name="title" class="form-control" id="title" placeholder="Enter title" data-required>
+                        </div>
+                        <div class="form-group">
+                            <label for="description">Description</label>
+                            <textarea data-required name="description" id="description" class="form-control" placeholder="Enter description"></textarea>
+                        </div>
+                        <div class="alert alert-danger error-info" role="alert"></div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary" form="create-task-form">Добавить</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal create task end-->
+
+    <!--Modal edit task start-->
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="editTask">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Редактировать задачу</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form name="edit-task-form" id="edit-task-form" novalidate>
+                        <div class="form-group">
+                            <label for="edittitle">Title</label>
+                            <input type="text" name="title" class="form-control" id="edittitle" placeholder="Enter title" data-required="">
+                        </div>
+                        <div class="form-group">
+                            <label for="editdescription">Description</label>
+                            <textarea data-required="" name="description" id="editdescription" class="form-control" placeholder="Enter description"></textarea>
+                        </div>
+                        <div class="alert alert-danger error-info" role="alert"></div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary" form="edit-task-form">Редактировать</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Modal edit task start-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    <!--HTTP module-->
+    <script src="js/modules/http/http.js"></script>
+
+    <!--Validate module-->
+    <script src="js/modules/validate/validate.js"></script>
+
+    <!--notification module-->
+    <script src="js/modules/notification/notification.js"></script>
+
+    <!--Verify module-->
+    <script src="js/modules/verify/verify.js"></script>
+
+    <!--Tasks module-->
+    <script src="js/modules/tasks/tasks.js"></script>
+    <script src="js/modules/tasks/create_task.js"></script>
+
+    <!--Init modules-->
+    <script src="js/init_home.js"></script>
+  </body>
+</html>
