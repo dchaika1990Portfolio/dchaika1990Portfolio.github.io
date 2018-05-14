@@ -148,6 +148,8 @@ $(function(){
 
     $('body').on('touchstart click', function (e) {
         e.stopPropagation(); e.preventDefault();
+        if (e.type == "touchstart")
+            $(this).off('click');
     });
 
 
