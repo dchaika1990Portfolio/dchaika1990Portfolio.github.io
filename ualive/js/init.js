@@ -137,8 +137,9 @@ $(function(){
         }
     });
 
-    $('body').on('touchmove', function (e) {
-        return false;
+    $('body').on('touchstart touchend touchmove', function (e) {
+        if (e.type == "touchstart" || e.type == "touchmove" || e.type == "touchend")
+            $(this).off('click');
     });
 
 
