@@ -146,6 +146,10 @@ $(function(){
         }
     });
 
+    $('body').on('touchstart click', function (e) {
+        e.stopPropagation(); e.preventDefault();
+    });
+
 
     //Footer
 
