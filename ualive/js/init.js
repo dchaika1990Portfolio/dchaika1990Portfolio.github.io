@@ -110,21 +110,30 @@ $(function(){
     //Aside blocks
 
     //btn-media
-    $('.main .buttons .btn-media').on('click',function(e){
+    $('.main .buttons .btn-media').on('touchstart click',function(e){
+        if (e.type == "touchstart")
+            $(this).off('click');
+
         $('.main .aside-right').removeClass('show');
 
         $('.main .aside-left').toggleClass('show');
     });
 
     //btn-info
-    $('.main .buttons .btn-info').on('click',function(e){
+    $('.main .buttons .btn-info').on('touchstart click',function(e){
+        if (e.type == "touchstart")
+            $(this).off('click');
+
         $('.main .aside-left').removeClass('show');
 
         $('.main .aside-right').toggleClass('show');
     });
 
     //btn-close all
-    $('.main .buttons a').on('click',function(e){
+    $('.main .buttons a').on('touchstart click',function(e){
+        if (e.type == "touchstart")
+            $(this).off('click');
+
         $('.main .aside-left, .main .aside-right').removeClass('show');
     });
 
