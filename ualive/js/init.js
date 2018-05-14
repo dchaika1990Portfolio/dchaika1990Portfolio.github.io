@@ -111,9 +111,6 @@ $(function(){
 
     //btn-media
     $('.main .buttons .btn-media').on('touchstart click',function(e){
-        if (e.type == "touchstart")
-            $(this).off('click');
-
         $('.main .aside-right').removeClass('show');
 
         $('.main .aside-left').toggleClass('show');
@@ -121,9 +118,6 @@ $(function(){
 
     //btn-info
     $('.main .buttons .btn-info').on('touchstart click',function(e){
-        if (e.type == "touchstart")
-            $(this).off('click');
-
         $('.main .aside-left').removeClass('show');
 
         $('.main .aside-right').toggleClass('show');
