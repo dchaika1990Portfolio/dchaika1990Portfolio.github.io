@@ -19,8 +19,8 @@
       <file leaf-file-name="init.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ualive/js/init.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="121" column="93" lean-forward="true" selection-start-line="121" selection-start-column="93" selection-end-line="121" selection-end-column="93" />
+            <state relative-caret-position="257">
+              <caret line="140" column="9" lean-forward="true" selection-start-line="140" selection-start-column="9" selection-end-line="140" selection-end-column="9" />
               <folding>
                 <element signature="e#118#671#0" expanded="false" />
                 <element signature="e#762#1319#0" expanded="false" />
@@ -32,12 +32,12 @@
                 <element signature="e#2716#2913#0" expanded="false" />
                 <element signature="e#2988#3039#0" expanded="false" />
                 <element signature="e#3103#3154#0" expanded="false" />
-                <element signature="e#4614#4771#0" expanded="false" />
-                <element signature="e#4882#5070#0" expanded="false" />
-                <element signature="e#5153#5495#0" expanded="false" />
-                <element signature="e#5593#5677#0" expanded="false" />
-                <element signature="e#5760#5818#0" expanded="false" />
-                <marker date="1526413456368" expanded="true" signature="4312:4507" ph="..." />
+                <element signature="e#4742#4899#0" expanded="false" />
+                <element signature="e#5010#5198#0" expanded="false" />
+                <element signature="e#5281#5623#0" expanded="false" />
+                <element signature="e#5721#5805#0" expanded="false" />
+                <element signature="e#5888#5946#0" expanded="false" />
+                <marker date="1526413859259" expanded="true" signature="4440:4635" ph="..." />
               </folding>
             </state>
           </provider>
@@ -149,12 +149,12 @@
       <option name="presentableId" value="Default" />
       <updated>1526318645042</updated>
       <workItem from="1526318647404" duration="5348000" />
-      <workItem from="1526410048860" duration="1920000" />
+      <workItem from="1526410048860" duration="2269000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7268000" />
+    <option name="totallyTimeSpent" value="7617000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -207,12 +207,12 @@
             <element signature="e#2716#2913#0" expanded="false" />
             <element signature="e#2988#3039#0" expanded="false" />
             <element signature="e#3103#3154#0" expanded="false" />
-            <element signature="e#4614#4771#0" expanded="false" />
-            <element signature="e#4882#5070#0" expanded="false" />
-            <element signature="e#5153#5495#0" expanded="false" />
-            <element signature="e#5593#5677#0" expanded="false" />
-            <element signature="e#5760#5818#0" expanded="false" />
-            <marker date="1526413456368" expanded="true" signature="4312:4507" ph="..." />
+            <element signature="e#4742#4899#0" expanded="false" />
+            <element signature="e#5010#5198#0" expanded="false" />
+            <element signature="e#5281#5623#0" expanded="false" />
+            <element signature="e#5721#5805#0" expanded="false" />
+            <element signature="e#5888#5946#0" expanded="false" />
+            <marker date="1526413859259" expanded="true" signature="4440:4635" ph="..." />
           </folding>
         </state>
       </provider>
@@ -235,8 +235,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ualive/js/init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="121" column="93" lean-forward="true" selection-start-line="121" selection-start-column="93" selection-end-line="121" selection-end-column="93" />
+        <state relative-caret-position="257">
+          <caret line="140" column="9" lean-forward="true" selection-start-line="140" selection-start-column="9" selection-end-line="140" selection-end-column="9" />
           <folding>
             <element signature="e#118#671#0" expanded="false" />
             <element signature="e#762#1319#0" expanded="false" />
@@ -248,12 +248,12 @@
             <element signature="e#2716#2913#0" expanded="false" />
             <element signature="e#2988#3039#0" expanded="false" />
             <element signature="e#3103#3154#0" expanded="false" />
-            <element signature="e#4614#4771#0" expanded="false" />
-            <element signature="e#4882#5070#0" expanded="false" />
-            <element signature="e#5153#5495#0" expanded="false" />
-            <element signature="e#5593#5677#0" expanded="false" />
-            <element signature="e#5760#5818#0" expanded="false" />
-            <marker date="1526413456368" expanded="true" signature="4312:4507" ph="..." />
+            <element signature="e#4742#4899#0" expanded="false" />
+            <element signature="e#5010#5198#0" expanded="false" />
+            <element signature="e#5281#5623#0" expanded="false" />
+            <element signature="e#5721#5805#0" expanded="false" />
+            <element signature="e#5888#5946#0" expanded="false" />
+            <marker date="1526413859259" expanded="true" signature="4440:4635" ph="..." />
           </folding>
         </state>
       </provider>

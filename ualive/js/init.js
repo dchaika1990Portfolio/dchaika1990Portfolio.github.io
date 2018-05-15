@@ -126,7 +126,9 @@ $(function(){
     });
 
     //btn-close all
-    $('.main .buttons a').on('click',function(e){
+    $('.main .buttons a').on('click touchstart touchend touchmove',function(e){
+        if ( e.type == 'touchstart' || e.type == 'touchend' || e.type == 'touchmove') return;
+
         $('.main .aside-left, .main .aside-right').removeClass('show');
     });
 
@@ -135,7 +137,7 @@ $(function(){
         if ( $(this).width() > 1200 ) {
             $('.main .aside-left, .main .aside-right').show();
         } else if ( $(this).width() <= 1200 ) {
-            $('.main .aside-left, .main .aside-right').removeClass('show');
+            // $('.main .aside-left, .main .aside-right').removeClass('show');
         }
     });
 
