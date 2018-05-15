@@ -110,16 +110,16 @@ $(function(){
     //Aside blocks
 
     //btn-media
-    $('.main .buttons .btn-media').on('click touchstart',function(e){
-        if ( e.type == 'touchstart') return ;
+    $('.main .buttons .btn-media').on('click touchstart touchend touchmove',function(e){
+        if ( e.type == 'touchstart' || e.type == 'touchend' || e.type == 'touchmove') return;
 
         $('.main .aside-right').removeClass('show');
         $('.main .aside-left').toggleClass('show');
     });
 
     //btn-info
-    $('.main .buttons .btn-info').on('click touchstart',function(e){
-        if ( e.type == 'touchstart') return ;
+    $('.main .buttons .btn-info').on('click touchstart touchend touchmove',function(e){
+        if ( e.type == 'touchstart' || e.type == 'touchend' || e.type == 'touchmove') return;
 
         $('.main .aside-left').removeClass('show');
         $('.main .aside-right').toggleClass('show');
