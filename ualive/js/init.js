@@ -111,6 +111,9 @@ $(function(){
 
     //btn-media
     $('.main .buttons .btn-media').on('click',function(e){
+        // e.preventDefault();
+        // e.stopPropagation();
+        if ( e.type == 'touchstart' || e.type == 'touchend' || e.type == 'touchmove') return false;
         $('.main .aside-right').removeClass('show');
 
         $('.main .aside-left').toggleClass('show');
@@ -118,6 +121,9 @@ $(function(){
 
     //btn-info
     $('.main .buttons .btn-info').on('click',function(e){
+        // e.preventDefault();
+        // e.stopPropagation();
+        if ( e.type == 'touchstart' || e.type == 'touchend' || e.type == 'touchmove') return false;
         $('.main .aside-left').removeClass('show');
 
         $('.main .aside-right').toggleClass('show');
@@ -137,10 +143,10 @@ $(function(){
         }
     });
 
-    $('body').on('touchstart touchend touchmove', function (e) {
-        if (e.type == "touchstart" || e.type == "touchmove" || e.type == "touchend")
-            $(this).off('click');
-    });
+    // $('body').on('touchstart touchend touchmove', function (e) {
+    //     if (e.type == "touchstart" || e.type == "touchmove" || e.type == "touchend")
+    //         $(this).off('click');
+    // });
 
 
     //Footer
