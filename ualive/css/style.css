@@ -1182,14 +1182,14 @@ label{
         position: absolute;
         top: 80px;
         left: -100%;
-        z-index: 99;
+        z-index: 101;
         height: 100%;
         -webkit-box-shadow: 0px 11px 49px 0px rgba(28, 28, 28, 0.31);
         box-shadow: 0px 11px 49px 0px rgba(28, 28, 28, 0.31);
         background-color: #f5f5f5;
         -webkit-transition: left .3s linear;
         -o-transition: left .3s linear;
-        transition: all .3s linear;
+        transition: left .3s linear;
     }
 
     .main .aside-left.show{
