@@ -20,8 +20,8 @@
       <file leaf-file-name="init.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ualive/js/init.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="113" column="52" lean-forward="false" selection-start-line="113" selection-start-column="52" selection-end-line="113" selection-end-column="52" />
+            <state relative-caret-position="221">
+              <caret line="135" column="0" lean-forward="true" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
               <folding>
                 <element signature="e#118#671#0" expanded="false" />
                 <element signature="e#762#1319#0" expanded="false" />
@@ -33,9 +33,9 @@
                 <element signature="e#2716#2913#0" expanded="false" />
                 <element signature="e#2988#3039#0" expanded="false" />
                 <element signature="e#3103#3154#0" expanded="false" />
-                <element signature="e#4818#5006#0" expanded="false" />
-                <element signature="e#5556#5640#0" expanded="false" />
-                <element signature="e#5723#5781#0" expanded="false" />
+                <element signature="e#4820#5008#0" expanded="false" />
+                <element signature="e#5558#5642#0" expanded="false" />
+                <element signature="e#5725#5783#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -179,12 +179,12 @@
       <updated>1526318645042</updated>
       <workItem from="1526318647404" duration="5348000" />
       <workItem from="1526410048860" duration="2856000" />
-      <workItem from="1526575322379" duration="5132000" />
+      <workItem from="1526575322379" duration="5325000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13336000" />
+    <option name="totallyTimeSpent" value="13529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -237,9 +237,9 @@
             <element signature="e#2716#2913#0" expanded="false" />
             <element signature="e#2988#3039#0" expanded="false" />
             <element signature="e#3103#3154#0" expanded="false" />
-            <element signature="e#4818#5006#0" expanded="false" />
-            <element signature="e#5556#5640#0" expanded="false" />
-            <element signature="e#5723#5781#0" expanded="false" />
+            <element signature="e#4820#5008#0" expanded="false" />
+            <element signature="e#5558#5642#0" expanded="false" />
+            <element signature="e#5725#5783#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -274,9 +274,9 @@
             <element signature="e#2716#2913#0" expanded="false" />
             <element signature="e#2988#3039#0" expanded="false" />
             <element signature="e#3103#3154#0" expanded="false" />
-            <element signature="e#4818#5006#0" expanded="false" />
-            <element signature="e#5556#5640#0" expanded="false" />
-            <element signature="e#5723#5781#0" expanded="false" />
+            <element signature="e#4820#5008#0" expanded="false" />
+            <element signature="e#5558#5642#0" expanded="false" />
+            <element signature="e#5725#5783#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -321,8 +321,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ualive/js/init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="113" column="52" lean-forward="false" selection-start-line="113" selection-start-column="52" selection-end-line="113" selection-end-column="52" />
+        <state relative-caret-position="221">
+          <caret line="135" column="0" lean-forward="true" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
           <folding>
             <element signature="e#118#671#0" expanded="false" />
             <element signature="e#762#1319#0" expanded="false" />
@@ -334,9 +334,9 @@
             <element signature="e#2716#2913#0" expanded="false" />
             <element signature="e#2988#3039#0" expanded="false" />
             <element signature="e#3103#3154#0" expanded="false" />
-            <element signature="e#4818#5006#0" expanded="false" />
-            <element signature="e#5556#5640#0" expanded="false" />
-            <element signature="e#5723#5781#0" expanded="false" />
+            <element signature="e#4820#5008#0" expanded="false" />
+            <element signature="e#5558#5642#0" expanded="false" />
+            <element signature="e#5725#5783#0" expanded="false" />
           </folding>
         </state>
       </provider>

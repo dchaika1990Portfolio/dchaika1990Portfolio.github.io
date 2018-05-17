@@ -127,7 +127,7 @@ $(function(){
         $('.main .aside-right').toggleClass('show');
     });
 
-    btn-close all
+    //btn-close all
     $('.main .buttons a').on('click touchstart touchend touchmove',function(e){
         if ( e.type == 'touchstart' || e.type == 'touchend' || e.type == 'touchmove') return;
 
