@@ -112,11 +112,7 @@ $(function(){
     //btn-media
     $('.main .buttons .btn-media').on('click',function(e){
         $('.main .aside-right').removeClass('show');
-        $('.main .aside-left').addClass('show');
-    });
-
-    $('.main .buttons .btn-media-aside').on('click',function(e){
-        $('.main .aside-left').removeClass('show');
+        $('.main .aside-left').toggleClass('show');
     });
 
     //btn-info
