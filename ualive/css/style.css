@@ -1181,7 +1181,8 @@ label{
         padding-left: 15px;
         position: absolute;
         top: 80px;
-        left: -100%;
+        left: 0;
+        transform: translateX(-110%);
         z-index: 101;
         height: 100%;
         -webkit-box-shadow: 0px 11px 49px 0px rgba(28, 28, 28, 0.31);
@@ -1193,7 +1194,7 @@ label{
     }
 
     .main .aside-left.show{
-        left: 0;
+        transform: translateX(0);
     }
 
 }

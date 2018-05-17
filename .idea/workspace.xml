@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9807bbf-d66e-480f-bfdd-05281a4f41bf" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/ualive/css/style.css" afterPath="$PROJECT_DIR$/ualive/css/style.css" />
       <change beforePath="$PROJECT_DIR$/ualive/js/init.js" afterPath="$PROJECT_DIR$/ualive/js/init.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="init.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="init.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ualive/js/init.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="114" column="46" lean-forward="true" selection-start-line="114" selection-start-column="46" selection-end-line="114" selection-end-column="46" />
+              <caret line="114" column="48" lean-forward="true" selection-start-line="114" selection-start-column="48" selection-end-line="114" selection-end-column="48" />
               <folding>
                 <element signature="e#118#671#0" expanded="false" />
                 <element signature="e#762#1319#0" expanded="false" />
@@ -32,20 +34,20 @@
                 <element signature="e#2716#2913#0" expanded="false" />
                 <element signature="e#2988#3039#0" expanded="false" />
                 <element signature="e#3103#3154#0" expanded="false" />
-                <element signature="e#4827#5015#0" expanded="false" />
-                <element signature="e#5098#5440#0" expanded="false" />
-                <element signature="e#5538#5622#0" expanded="false" />
-                <element signature="e#5705#5763#0" expanded="false" />
+                <element signature="e#4829#5017#0" expanded="false" />
+                <element signature="e#5100#5442#0" expanded="false" />
+                <element signature="e#5540#5624#0" expanded="false" />
+                <element signature="e#5707#5765#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ualive/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="1196" column="5" lean-forward="true" selection-start-line="1196" selection-start-column="5" selection-end-line="1196" selection-end-column="5" />
+            <state relative-caret-position="281">
+              <caret line="1194" column="0" lean-forward="true" selection-start-line="1194" selection-start-column="0" selection-end-line="1194" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -72,8 +74,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>aside-left</find>
       <find>aside-left.op</find>
+      <find>aside-left</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -84,6 +86,7 @@
       <list>
         <option value="$PROJECT_DIR$/ualive/index.html" />
         <option value="$PROJECT_DIR$/ualive/js/init.js" />
+        <option value="$PROJECT_DIR$/ualive/css/style.css" />
       </list>
     </option>
   </component>
@@ -178,15 +181,16 @@
       <updated>1526318645042</updated>
       <workItem from="1526318647404" duration="5348000" />
       <workItem from="1526410048860" duration="2856000" />
-      <workItem from="1526575322379" duration="4312000" />
+      <workItem from="1526575322379" duration="4624000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12516000" />
+    <option name="totallyTimeSpent" value="12828000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -196,7 +200,7 @@
       <window_info id="!tool.window.name.debug!" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2369281" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2369281" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -235,10 +239,10 @@
             <element signature="e#2716#2913#0" expanded="false" />
             <element signature="e#2988#3039#0" expanded="false" />
             <element signature="e#3103#3154#0" expanded="false" />
-            <element signature="e#4827#5015#0" expanded="false" />
-            <element signature="e#5098#5440#0" expanded="false" />
-            <element signature="e#5538#5622#0" expanded="false" />
-            <element signature="e#5705#5763#0" expanded="false" />
+            <element signature="e#4829#5017#0" expanded="false" />
+            <element signature="e#5100#5442#0" expanded="false" />
+            <element signature="e#5540#5624#0" expanded="false" />
+            <element signature="e#5707#5765#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -273,10 +277,10 @@
             <element signature="e#2716#2913#0" expanded="false" />
             <element signature="e#2988#3039#0" expanded="false" />
             <element signature="e#3103#3154#0" expanded="false" />
-            <element signature="e#4827#5015#0" expanded="false" />
-            <element signature="e#5098#5440#0" expanded="false" />
-            <element signature="e#5538#5622#0" expanded="false" />
-            <element signature="e#5705#5763#0" expanded="false" />
+            <element signature="e#4829#5017#0" expanded="false" />
+            <element signature="e#5100#5442#0" expanded="false" />
+            <element signature="e#5540#5624#0" expanded="false" />
+            <element signature="e#5707#5765#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -293,14 +297,6 @@
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ualive/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="1196" column="5" lean-forward="true" selection-start-line="1196" selection-start-column="5" selection-end-line="1196" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -322,7 +318,7 @@
     <entry file="file://$PROJECT_DIR$/ualive/js/init.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="114" column="46" lean-forward="true" selection-start-line="114" selection-start-column="46" selection-end-line="114" selection-end-column="46" />
+          <caret line="114" column="48" lean-forward="true" selection-start-line="114" selection-start-column="48" selection-end-line="114" selection-end-column="48" />
           <folding>
             <element signature="e#118#671#0" expanded="false" />
             <element signature="e#762#1319#0" expanded="false" />
@@ -334,11 +330,19 @@
             <element signature="e#2716#2913#0" expanded="false" />
             <element signature="e#2988#3039#0" expanded="false" />
             <element signature="e#3103#3154#0" expanded="false" />
-            <element signature="e#4827#5015#0" expanded="false" />
-            <element signature="e#5098#5440#0" expanded="false" />
-            <element signature="e#5538#5622#0" expanded="false" />
-            <element signature="e#5705#5763#0" expanded="false" />
+            <element signature="e#4829#5017#0" expanded="false" />
+            <element signature="e#5100#5442#0" expanded="false" />
+            <element signature="e#5540#5624#0" expanded="false" />
+            <element signature="e#5707#5765#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ualive/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="1194" column="0" lean-forward="true" selection-start-line="1194" selection-start-column="0" selection-end-line="1194" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
