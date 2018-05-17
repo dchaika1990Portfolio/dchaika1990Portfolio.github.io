@@ -110,11 +110,13 @@ $(function(){
     //Aside blocks
 
     //btn-media
-    $('.main .buttons .btn-media').on('click touchstart touchend touchmove',function(e){
-        if ( e.type == 'touchstart' || e.type == 'touchend' || e.type == 'touchmove') return;
-
+    $('.main .buttons .btn-media').on('click',function(e){
         $('.main .aside-right').removeClass('show');
-        $('.main .aside-left').toggleClass('show');
+        $('.main .aside-left').addClass('show');
+    });
+
+    $('.main .buttons .btn-media-aside').on('click',function(e){
+        $('.main .aside-left').removeClass('show');
     });
 
     //btn-info
@@ -126,11 +128,11 @@ $(function(){
     });
 
     //btn-close all
-    // $('.main .buttons a').on('click touchstart touchend touchmove',function(e){
-    //     if ( e.type == 'touchstart' || e.type == 'touchend' || e.type == 'touchmove') return;
-    //
-    //     $('.main .aside-left, .main .aside-right').removeClass('show');
-    // });
+    $('.main .buttons a').on('click touchstart touchend touchmove',function(e){
+        if ( e.type == 'touchstart' || e.type == 'touchend' || e.type == 'touchmove') return;
+
+        $('.main .aside-left, .main .aside-right').removeClass('show');
+    });
 
     //Aside blocks display:block if $(window).width() >= 1201
     $(window).on('resize',function() {
