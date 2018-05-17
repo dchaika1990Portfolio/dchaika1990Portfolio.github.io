@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9807bbf-d66e-480f-bfdd-05281a4f41bf" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/ualive/index.html" afterPath="$PROJECT_DIR$/ualive/index.html" />
       <change beforePath="$PROJECT_DIR$/ualive/js/init.js" afterPath="$PROJECT_DIR$/ualive/js/init.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="init.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="init.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ualive/js/init.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="140" column="9" lean-forward="true" selection-start-line="140" selection-start-column="9" selection-end-line="140" selection-end-column="9" />
+            <state relative-caret-position="212">
+              <caret line="127" column="19" lean-forward="true" selection-start-line="127" selection-start-column="19" selection-end-line="127" selection-end-column="19" />
               <folding>
                 <element signature="e#118#671#0" expanded="false" />
                 <element signature="e#762#1319#0" expanded="false" />
@@ -32,28 +34,49 @@
                 <element signature="e#2716#2913#0" expanded="false" />
                 <element signature="e#2988#3039#0" expanded="false" />
                 <element signature="e#3103#3154#0" expanded="false" />
-                <element signature="e#4742#4899#0" expanded="false" />
-                <element signature="e#5010#5198#0" expanded="false" />
-                <element signature="e#5281#5623#0" expanded="false" />
-                <element signature="e#5721#5805#0" expanded="false" />
-                <element signature="e#5888#5946#0" expanded="false" />
-                <marker date="1526413859259" expanded="true" signature="4440:4635" ph="..." />
+                <element signature="e#4551#4708#0" expanded="false" />
+                <element signature="e#4819#5007#0" expanded="false" />
+                <element signature="e#5090#5432#0" expanded="false" />
+                <element signature="e#5530#5614#0" expanded="false" />
+                <element signature="e#5697#5755#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ualive/index.html">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ualive/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="213">
+              <caret line="1196" column="5" lean-forward="true" selection-start-line="1196" selection-start-column="5" selection-end-line="1196" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ualive/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>aside-left</find>
+      <find>aside-left.op</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,6 +85,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ualive/js/init.js" />
+        <option value="$PROJECT_DIR$/ualive/index.html" />
       </list>
     </option>
   </component>
@@ -107,20 +131,26 @@
               <item name="Pet-projects" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pet-projects" type="462c0819:PsiDirectoryNode" />
               <item name="ualive" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pet-projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pet-projects" type="462c0819:PsiDirectoryNode" />
+              <item name="ualive" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Bussines/ualive/www" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RunDashboard">
@@ -149,12 +179,13 @@
       <option name="presentableId" value="Default" />
       <updated>1526318645042</updated>
       <workItem from="1526318647404" duration="5348000" />
-      <workItem from="1526410048860" duration="2269000" />
+      <workItem from="1526410048860" duration="2856000" />
+      <workItem from="1526575322379" duration="2908000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7617000" />
+    <option name="totallyTimeSpent" value="11112000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -207,12 +238,11 @@
             <element signature="e#2716#2913#0" expanded="false" />
             <element signature="e#2988#3039#0" expanded="false" />
             <element signature="e#3103#3154#0" expanded="false" />
-            <element signature="e#4742#4899#0" expanded="false" />
-            <element signature="e#5010#5198#0" expanded="false" />
-            <element signature="e#5281#5623#0" expanded="false" />
-            <element signature="e#5721#5805#0" expanded="false" />
-            <element signature="e#5888#5946#0" expanded="false" />
-            <marker date="1526413859259" expanded="true" signature="4440:4635" ph="..." />
+            <element signature="e#4551#4708#0" expanded="false" />
+            <element signature="e#4819#5007#0" expanded="false" />
+            <element signature="e#5090#5432#0" expanded="false" />
+            <element signature="e#5530#5614#0" expanded="false" />
+            <element signature="e#5697#5755#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -221,22 +251,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ualive/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ualive/js/init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="140" column="9" lean-forward="true" selection-start-line="140" selection-start-column="9" selection-end-line="140" selection-end-column="9" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#118#671#0" expanded="false" />
             <element signature="e#762#1319#0" expanded="false" />
@@ -248,12 +276,71 @@
             <element signature="e#2716#2913#0" expanded="false" />
             <element signature="e#2988#3039#0" expanded="false" />
             <element signature="e#3103#3154#0" expanded="false" />
-            <element signature="e#4742#4899#0" expanded="false" />
-            <element signature="e#5010#5198#0" expanded="false" />
-            <element signature="e#5281#5623#0" expanded="false" />
-            <element signature="e#5721#5805#0" expanded="false" />
-            <element signature="e#5888#5946#0" expanded="false" />
-            <marker date="1526413859259" expanded="true" signature="4440:4635" ph="..." />
+            <element signature="e#4551#4708#0" expanded="false" />
+            <element signature="e#4819#5007#0" expanded="false" />
+            <element signature="e#5090#5432#0" expanded="false" />
+            <element signature="e#5530#5614#0" expanded="false" />
+            <element signature="e#5697#5755#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ualive/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ualive/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="1196" column="5" lean-forward="true" selection-start-line="1196" selection-start-column="5" selection-end-line="1196" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ualive/js/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="127" column="19" lean-forward="true" selection-start-line="127" selection-start-column="19" selection-end-line="127" selection-end-column="19" />
+          <folding>
+            <element signature="e#118#671#0" expanded="false" />
+            <element signature="e#762#1319#0" expanded="false" />
+            <element signature="e#1390#1521#0" expanded="false" />
+            <element signature="e#1595#1722#0" expanded="false" />
+            <element signature="e#1763#2096#0" expanded="false" />
+            <element signature="e#2166#2540#0" expanded="false" />
+            <element signature="e#2601#2627#0" expanded="false" />
+            <element signature="e#2716#2913#0" expanded="false" />
+            <element signature="e#2988#3039#0" expanded="false" />
+            <element signature="e#3103#3154#0" expanded="false" />
+            <element signature="e#4551#4708#0" expanded="false" />
+            <element signature="e#4819#5007#0" expanded="false" />
+            <element signature="e#5090#5432#0" expanded="false" />
+            <element signature="e#5530#5614#0" expanded="false" />
+            <element signature="e#5697#5755#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ualive/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

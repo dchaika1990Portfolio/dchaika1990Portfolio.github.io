@@ -126,26 +126,20 @@ $(function(){
     });
 
     //btn-close all
-    $('.main .buttons a').on('click touchstart touchend touchmove',function(e){
-        if ( e.type == 'touchstart' || e.type == 'touchend' || e.type == 'touchmove') return;
-
-        $('.main .aside-left, .main .aside-right').removeClass('show');
-    });
+    // $('.main .buttons a').on('click touchstart touchend touchmove',function(e){
+    //     if ( e.type == 'touchstart' || e.type == 'touchend' || e.type == 'touchmove') return;
+    //
+    //     $('.main .aside-left, .main .aside-right').removeClass('show');
+    // });
 
     //Aside blocks display:block if $(window).width() >= 1201
     $(window).on('resize',function() {
         if ( $(this).width() > 1200 ) {
             $('.main .aside-left, .main .aside-right').show();
         } else if ( $(this).width() <= 1200 ) {
-            // $('.main .aside-left, .main .aside-right').removeClass('show');
+            $('.main .aside-left, .main .aside-right').removeClass('show');
         }
     });
-
-    // $('body').on('touchstart touchend touchmove', function (e) {
-    //     if (e.type == "touchstart" || e.type == "touchmove" || e.type == "touchend")
-    //         $(this).off('click');
-    // });
-
 
     //Footer
 
