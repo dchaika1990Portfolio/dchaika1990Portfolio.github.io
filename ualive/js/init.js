@@ -115,9 +115,9 @@ $(function(){
         $('.main .aside-left').addClass('show');
     });
 
-    $('.main .buttons .btn-media-aside').on('click',function(e){
-        $('.main .aside-left').removeClass('show');
-    });
+    // $('.main .buttons .btn-media-aside').on('click',function(e){
+    //     $('.main .aside-left').removeClass('show');
+    // });
 
     //btn-info
     $('.main .buttons .btn-info').on('click touchstart touchend touchmove',function(e){
@@ -128,11 +128,11 @@ $(function(){
     });
 
     //btn-close all
-    $('.main .buttons a').on('click touchstart touchend touchmove',function(e){
-        if ( e.type == 'touchstart' || e.type == 'touchend' || e.type == 'touchmove') return;
-
-        $('.main .aside-left, .main .aside-right').removeClass('show');
-    });
+    // $('.main .buttons a').on('click touchstart touchend touchmove',function(e){
+    //     if ( e.type == 'touchstart' || e.type == 'touchend' || e.type == 'touchmove') return;
+    //
+    //     $('.main .aside-left, .main .aside-right').removeClass('show');
+    // });
 
     //Aside blocks display:block if $(window).width() >= 1201
     $(window).on('resize',function() {
